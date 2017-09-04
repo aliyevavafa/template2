@@ -1,0 +1,700 @@
+body{
+	margin: 0px;
+}
+ .full{
+ 	width: 100%;
+ }
+ .space{
+ 	margin-top: 20px;
+ }
+ .normal{
+ 	width: 1100px;
+ 	margin: 0 auto;
+ }
+#header{
+    height: 100px;
+}
+.logo{
+      position: absolute;
+      left: 207px;
+      top: 32px;
+    }
+    #header .navbar ul{
+        float: right;
+        margin-top: 35px;
+     margin-right: 15%
+    }
+
+#header .navbar li{
+	  float: left;
+	  color: #084B8A;
+	  text-transform: uppercase;
+	  margin-right: 35px;
+}
+.navbar li:hover{
+	transition: all 1s ease;
+	background: #084B8A;
+      height: 30px;
+      text-align: center;
+}
+#slides img{
+	position: absolute;
+	right: 100px;
+
+}
+   
+    #slides{
+	height: 660px;
+	background: lightgray;
+	overflow: hidden;
+}
+  
+    #slides .sale{
+    	  position: absolute;  
+    	  bottom: 40%;
+    	  left: 17%;
+    }
+    
+     #slides img {
+   	 	height: 700px;
+   	  position: relative;  
+   	  left: 55%;
+   	    }
+
+   	  .sale hr{
+   	  	color:black; 
+   	  	width: 200px;
+   	   position: absolute;
+          bottom: -22px;
+
+   	  }
+
+   	  .sale h1{
+   	  	font-size: 33px;
+   	  }
+   	  .sale h2{
+   	  	font-size: 16px;
+   	  }
+   	  .sale p{
+   	  	font-size: 15px;
+   	  	position: absolute;
+   	  	bottom: -82px;
+   	  	width: 358px;
+   	  	
+   	  }
+   	  .sale button{
+           width: 120px;
+           height: 40px;
+           background: #2E64FE;
+           position: absolute;
+           top: 215px;
+           color:white;
+           font-weight: bold;
+   	  }
+
+   	  #collection{
+   	  	height: 150px;
+   	     	position: relative;
+   	  	margin-top: 40px;
+   	  }
+   	 #collection .img1{
+   	 	 display: inline-block;
+          box-sizing: border-box;
+         width:500px;
+        	height: 154px;
+         margin-right: 25px;
+   	 }
+   	 #collection .img2{
+   	       display: inline-block;
+          box-sizing: border-box;
+          height: 150px;   
+   	 	  width:250px;
+         bottom: 122px;
+         left: 500px;
+         margin-right: 55px;
+       
+   	 }
+   	 #collection .img3{
+   	 	   display: inline-block;
+   	 	   box-sizing: border-box;
+   	 	 width:250px;
+         height:150px;
+       
+
+   	 }
+   	 #collection .img1 img{
+   	 	width: 500px;
+   	 	height: 150px;
+
+   	 }
+   	  #collection .img2 img{
+   	 	width: 280px;
+   	 	height: 150px;
+
+   	 }
+   	  #collection .img3 img{
+   	 	width: 280px;
+   	 	height: 150px;
+
+   	 }
+     .img1 .ustyazi1{
+        width: 450px;
+        height: 50px;
+        background-color: rgba(0,0,0,.5);
+        position: absolute;
+        bottom: 28px;
+     }
+     .ustyazi1 h2{
+       position: absolute;
+       bottom: 6px;
+       color: white;
+       font-size: 18px;
+       left: 12px;
+     }
+     .ustyazi1 h1{
+       position: absolute;
+       top: 5px;
+       color: white;
+       left: 12px;
+     }
+
+     .img2 .ustyazi2{
+        width: 250px;
+        height: 50px;
+         background-color: rgba(0,0,0,.5);
+        position: absolute; 
+        bottom: 30px;
+     }
+     .ustyazi2 h2{
+       position: absolute;
+       bottom: 6px;
+       color: white;
+       font-size: 18px;
+       left: 37px;
+     }
+     .ustyazi2 h1{
+       position: absolute;
+       top: 5px;
+       font-size: 22px;
+       color: white;
+       left: 14px;
+     }
+
+      .img3 .ustyazi3{
+        width: 250px;
+        height: 50px;
+        position: absolute; 
+        background-color: rgba(255,255,255,.7);
+        bottom: 30px;  
+     }
+     .ustyazi3 h2{
+       position: absolute;
+       bottom: 6px;
+       color: black;
+       font-size: 18px;
+       left: 20px;
+    
+     }
+     .ustyazi3 h1{
+       position: absolute;
+       top: 5px;
+       font-size: 22px;
+       color: black;
+       left: 20px;
+      
+     }
+     
+   #catalog{
+      width: 1150px;
+       height: 400px;
+       margin-top: 40px;
+   }
+   #catalog .ctg{
+    width:265px;
+    height: 380px;
+    display: inline-block;
+    margin-left: 17px;
+    border: 1px solid lightgray;
+
+   }
+   .ctg img{
+      width: 265px;
+      height: 265px;
+     
+   }
+   .ctg h3{
+       position: absolute;
+       font-size: 14px;
+       padding-left: 14px;   
+   }
+   .ctg h2{
+       position: relative;
+       font-size: 16px;
+       top: 45px;
+      left: 15px;
+       color: blue;
+   } 
+   #accessories{
+       height: 260px;
+       background-image: url(image/bg1.jpg);
+       margin-top: 40px;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: 0px; 
+   }
+   #accessories .womenacc{
+          position: relative;
+           top: 85px;
+           float: right;
+           right: 240px;
+   }
+   #accessories button{
+         height: 40px;
+         width: 120px;
+         color:white;
+         border:0px;
+         background-color: lightgray;
+         font-weight: bold;
+         position: relative;
+         top:15px;
+   }
+    #accessories h3{
+          font-size: 15px;
+          color:gray;
+           position: relative;
+    }
+    #accessories button:hover{
+      transition:all 1s ease;
+      background-color: black;
+    }
+
+   #table{
+    width: 1190px;
+    height: 805px;
+    margin-top: 40px;
+    position: relative;
+   }
+    #table .top{
+      height: 382px;
+    }
+    #table .top div{
+      width: 260px;
+      height: 370px;
+      background-color: white;
+      display: inline-block;
+      margin-left: 30px;
+       position: relative;
+        border: 6px solid white;
+       }
+    #table .top div img{
+         width: 260px;
+        box-sizing: border-box;
+      
+      position: relative;
+    }
+    #table .top h1{
+      font-size: 16px;
+        position: relative;
+        left: 15px;
+    }
+        
+    #table .top h3{
+      font-size: 15px;
+        position: relative;
+        left: 15px;
+        color: blue;
+        display: inline-block;
+    }
+
+     #table .top h2{
+      font-size: 15px;
+        position: relative;
+        text-decoration: line-through;
+        color: gray;
+        display: inline-block;
+        left: 20px;
+    } 
+    #table .bottom{
+      height: 382px;
+      margin-top: 40px;
+
+    }
+    #table .bottom div{
+      width: 260px;
+      height: 370px;
+      display: inline-block;
+      margin-left: 34px; 
+       position: relative; 
+       float: left;
+       border: 6px solid white;
+       background-color: white;
+       }
+     #table .bottom div img{
+         width: 260px;
+        box-sizing: border-box;
+      position: relative; 
+      
+    }
+    #table .bottom h1{
+      font-size: 16px;
+        position: relative;
+        left: 15px; 
+    }
+        
+    #table .bottom h3{
+      font-size: 15px;
+        position: relative;
+        color: blue;
+        display: inline-block;
+        left: 20px;
+    }
+
+     #table .bottom h2{
+      font-size: 15px;
+        position: relative;
+        text-decoration: line-through;
+        color: gray;
+        display: inline-block;
+        left: 28px;
+    }  
+    
+    #subscribe{
+      height: 380px;
+      margin-top: 40px;
+      background-image:url(image/bg2.jpg);
+      position: relative;
+    
+
+    }
+    #subscribe h1{
+      color: white;
+     position: absolute; 
+      top: 65px;
+      left: 525px;
+
+    
+
+    }
+    #subscribe h3{
+      color: white;
+      position: absolute;
+      left: 274px;
+      top:134px;
+   
+    }
+    #subscribe .emailInline input{
+      position: absolute; 
+       height: 40px;
+       width: 575px;
+       top: 200px;
+       left: 384px;
+      padding-left: 15px;
+      border-radius: 5px;
+    }
+     #subscribe i{
+      position: absolute;
+      font-size:55px; 
+      color:blue;
+      top: 195px;
+      left: 978px;
+     }
+
+
+     
+   #table2{
+    width: 1190px;
+    height: 805px;
+    margin-top: 40px;
+    position: relative;
+   }
+    #table2 .yuxari{
+      height: 382px;
+    }
+    #table2 .yuxari div{
+      width: 260px;
+      height: 370px;
+      background-color: white;
+      display: inline-block;
+      margin-left: 30px;
+       position: relative;
+        border: 6px solid white;
+       }
+    #table2 .yuxari div img{
+         width: 260px;
+        box-sizing: border-box;
+    }
+   
+
+    #table2 .yuxari h1{
+      font-size: 16px;
+        position: relative;
+        left: 15px;
+    }
+        
+    #table2 .yuxari h3{
+      font-size: 15px;
+        position: relative;
+        left: 15px;
+        color: blue;
+        display: inline-block;
+    }
+
+     #table2 .yuxari h2{
+      font-size: 15px;
+        position: relative;
+        text-decoration: line-through;
+        color: gray;
+        display: inline-block;
+        left: 20px;
+    } 
+
+
+    #table2 .asagi{
+      height: 382px;
+      margin-top: 40px;
+
+    }
+    #table2 .asagi div{
+      width: 260px;
+      height: 370px;
+      display: inline-block;
+      margin-left: 34px; 
+       position: relative; 
+       float: left;
+       border: 6px solid white;
+       background-color: white;
+       }
+     #table2 .asagi div img{
+         width: 260px;
+        box-sizing: border-box;
+      position: relative; 
+      
+    }
+    #table2 .asagi h1{
+      font-size: 16px;
+        position: relative;
+        left: 15px; 
+    }
+        
+    #table2 .asagi h3{
+      font-size: 15px;
+        position: relative;
+        color: blue;
+        display: inline-block;
+        left: 20px;
+    }
+
+     #table2 .asagi h2{
+      font-size: 15px;
+        position: relative;
+        text-decoration: line-through;
+        color: gray;
+        display: inline-block;
+        left: 28px;
+    }  
+
+
+
+
+     #footer{
+       height: 550px;
+       background-color: #2d2d2d;
+     }
+
+
+      #footer .cumulo{
+        height: 360px;
+        width: 300px;
+        display: inline-block;
+        margin-top: 80px;
+        margin-left: 50px;
+        position: relative;
+      }
+       
+       #footer .cumulo img{
+          position: absolute;
+       }
+       #footer .cumulo p{
+         position: absolute;
+         color: gray;
+         top: 35px;
+       }
+       #footer .cumulo i{
+        position: absolute;
+        top: 170px;
+        color: gray;
+       }
+    
+      
+
+
+
+      #footer .usefulLinks{
+        height: 360px;
+        width: 300px;
+        display: inline-block;
+        margin-left: 15px;
+        position: relative;
+      }
+
+
+      #footer h1{
+          position: absolute;
+          color: white;
+          margin: 0px;
+          padding: 0px;
+          top: 8px;
+          left: 10px;
+      }
+
+      #footer ul{
+        padding: 0px;
+        margin: 0px;
+        position: absolute;
+      }
+
+       #footer  ul li{
+        position: relative;
+        top: 50px;
+        left: 35px;
+        margin-top: 10px;
+        color: gray;
+
+       }
+        
+
+      
+
+
+        #footer .categories{
+        height: 360px;
+        width: 300px;
+        display: inline-block;
+         margin-left: 10px;
+         position: relative;
+      }
+
+      #footer .categories h1{
+         position: absolute;
+         color: white;
+         padding: 0px;
+         margin: 0px;
+         top: 10px;
+         left: 10px;
+      }
+
+      #footer .categories p{
+      position: absolute;
+      font-size: 12px;
+      left: 30px;
+      color: #524FA7;
+
+      }
+      #footer .categories p:hover{
+        transition: all 1s ease; 
+        background-color: #1E1A7C;
+        height: 30px; 
+        cursor: pointer;
+      }
+
+        #footer .socialLinks{
+        height: 360px;
+        width: 300px;
+        display: inline-block;
+         margin-left: 15px;
+         position: relative;
+      }
+
+
+        #footer .socialLinks h1{
+           position: absolute;
+         color: white;
+        }
+        #footer .socialLinks hr{
+          color: darkgray;
+          position: relative;
+          top: 40px;
+
+        }
+          #footer .socialLinks i{
+            position: absolute;
+            font-size: 20px;
+            color: gray;
+          }
+          #footer .socialLinks p{
+            position: absolute;
+            font-size: 15px;
+            color: gray;
+            width: 300px;
+            top: 142px;
+          }
+           #footer .socialLinks input{
+            width: 285px;
+            height: 40px;
+            position: absolute;
+            top: 210px;
+            border-radius: 7px;
+            padding-left: 8px;
+           }  
+
+
+
+           #footer .asagi{
+            position: relative;
+            height: 70px;
+            background-color: #3B3C40;
+            top:35px;
+           }
+
+             
+          #footer .asagi .ul{
+            padding: 0px;
+            margin: 0px;
+            position: absolute;
+          }
+          #footer .asagi ul li {
+            display: inline-block;
+            margin-left: 20px;
+            top: 20px;
+            font-size: 12px;
+          }
+           #footer .asagi p{
+            position: absolute;
+             color: gray;
+            left: 1100px;
+            top: 15px;
+           }
+           #footer .asagi ul li a{
+            text-decoration: none;
+            color: gray;
+           }
+          #footer .asagi ul li a:hover{
+            transition: all 1s ease;
+            color: blue;
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
